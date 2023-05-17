@@ -3,9 +3,9 @@
   "name": "Documentation Starter Kit",
   "logo": {
     "dark": "/logo/dark.png",
-    "light": "/logo/light.png"
+    "light": "/logo/light.svg"
   },
-  "favicon": "/favicon.png",
+  "favicon": "/favicon.ico",
   "colors": {
     "primary": "#0069ED",
     "light": "#4D9CFF",
@@ -58,8 +58,8 @@
     }
   ],
   "footerSocials": {
-    "twitter": "https://twitter.com/mintlify",
-    "github": "https://github.com/mintlify",
-    "linkedin": "https://www.linkedin.com/company/mintsearch"
+    "twitter": "https://twitter.com/openfn",
+    "github": "https://github.com/openfn",
+    "linkedin": "https://www.linkedin.com/company/openfn"
   }
 }
