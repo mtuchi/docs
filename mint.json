@@ -1,11 +1,11 @@
 {
   "$schema": "https://mintlify.com/schema.json",
-  "name": "Documentation Starter Kit",
+  "name": "OpenFn Documentation",
   "logo": {
-    "dark": "/logo/dark.png",
-    "light": "/logo/light.svg"
+    "dark": "/img/logo/light.svg",
+    "light": "/img/logo/light.svg"
   },
-  "favicon": "/favicon.ico",
+  "favicon": "/img/favicon.ico",
   "colors": {
     "primary": "#0069ED",
     "light": "#4D9CFF",
@@ -14,12 +14,12 @@
   "topbarLinks": [
     {
       "name": "Documentation",
-      "url": "https://mintlify.com/docs"
+      "url": "https://docs.openfn.org"
     }
   ],
   "topbarCtaButton": {
     "name": "Get Started",
-    "url": "https://github.com/mintlify/starter"
+    "url": "https://github.com/Openfn/starter"
   },
   "anchors": [
     {
@@ -30,22 +30,126 @@
     {
       "name": "Changelog",
       "icon": "list",
-      "url": "https://mintlify.com"
+      "url": "docs/release-notes"
     },
     {
       "name": "Community",
       "icon": "discord",
-      "url": "https://mintlify.com/community"
+      "url": "https://community.openfn.org"
     }
   ],
   "navigation": [
     {
       "group": "Home",
-      "pages": ["introduction", "features"]
+      "pages": [
+        "introduction",
+        "features"
+      ]
+    },
+    {
+      "group": "Docs",
+      "pages": [
+        {
+          "group": "Introduction",
+          "pages": [
+            "docs/intro",
+            "docs/getting-started/integration-toolkit",
+            "docs/about-lightning",
+            "docs/getting-started/so-you-want-to-integrate"
+          ]
+        },
+        {
+          "group": "Getting Started",
+          "pages": [
+            "docs/build/example-build",
+            "docs/build/lightning-quick-start",
+            "docs/getting-started/terminology",
+            "docs/getting-started/implementation-checklist",
+            "docs/getting-started/security"
+          ]
+        },
+        {
+          "group": "Design",
+          "pages": [
+            "docs/design/design-quickstart",
+            "docs/getting-started/glossary"
+          ]
+        },
+        {
+          "group": "Build",
+          "pages": [
+            {
+              "group": "Jobs",
+              "pages": [
+                "docs/build/jobs",
+                "docs/jobs/job-design-intro",
+                "docs/jobs/understanding",
+                "docs/jobs/operations",
+                "docs/jobs/multiple-operations",
+                "docs/jobs/state",
+                "docs/jobs/each",
+                "docs/jobs/job-studio",
+                "docs/jobs/editing_locally",
+                "docs/jobs/working_with_branches"
+              ]
+            },
+            "docs/build/triggers",
+            "docs/build/credentials",
+            {
+              "group": "Live Data",
+              "pages": [
+                "docs/build/inbox",
+                "docs/source-apps"
+              ]
+            },
+            "docs/cli",
+            "docs/build/troubleshooting",
+            {
+              "group": "Old Versions",
+              "pages": [
+                "docs/core",
+                "docs/devtools/home",
+                "docs/microservice/home"
+              ]
+            }
+          ]
+        },
+        {
+          "group": "Deploy",
+          "pages": [
+            "docs/deploy/options",
+            "docs/portability",
+            "docs/deploy/platform",
+            "docs/instant-openhie"
+          ]
+        },
+        {
+          "group": "Manage",
+          "pages": [
+            "docs/manage/platform-mgmt",
+            "docs/manage/troubleshooting-tips-on-platform",
+            "docs/jobs/errors",
+            "docs/jobs/limits",
+            "docs/release-notes"
+          ]
+        },
+        {
+          "group": "Contributing",
+          "pages": [
+            "docs/openfn-roadmap",
+            "docs/for-devs",
+            "docs/gsoc",
+            "docs/writing-docs",
+            "docs/style-guide"
+          ]
+        }
+      ]
     },
     {
       "group": "API Documentation",
-      "pages": ["api-reference/authentication"]
+      "pages": [
+        "api-reference/authentication"
+      ]
     },
     {
       "group": "Endpoint Examples",
